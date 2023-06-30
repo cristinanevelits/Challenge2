@@ -19,7 +19,7 @@ body {
     padding: 5px;
     justify-content: space-between;
     margin: 0;
-    viewport-fit: cover;
+    max-width: viewport;
 }
 
 /* navigation styles */
