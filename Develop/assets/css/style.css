@@ -1,14 +1,14 @@
-/* Reset default browser styles */
+/* default browser styles */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #151515;
+    background-color: #181818;
     color: white;
     padding: 0.1rem;
 }
 
-  /* Body styles */
+  /* body styles */
 body {
     font-family: 'Space Grotesk', sans-serif;
     line-height: 1.5;
@@ -18,14 +18,16 @@ body {
     display: flex;
     padding: 5px;
     justify-content: space-between;
+    margin: 0;
 }
 
-  /* Navigation styles */
+/* navigation styles */
 nav {
     padding: 10px;
     display: flex;
 }
 
+/* navigation bar elements style - whole menu*/
 nav ul {
     display: flex;
     list-style-type: none;
@@ -34,18 +36,24 @@ nav ul {
     text-decoration: underline;
     color: #4ee1a0;
 }
-
+/* navigation bar elements style - each one*/
 nav ul li {
     display: inline-block;
     margin-right: 20px;
 }
 
+/* navigation bar href style */
 nav ul li a {
     text-decoration: none;
     transition: color 0.3s;
 }
 
+/* navigation bar href style when hovering*/
 nav ul li a:hover {
+
+    color: white;
+    text-decoration: underline #ff5fa7;
+    cursor: pointer;
 }
 
   /* Header styles */
@@ -57,9 +65,16 @@ header {
 header h1 {
     font-family: 'Space Grotesk', sans-serif;
     font-size: 32px;
-    margin-bottom: 10px;
+    padding: 0;
 }
 
+header h2 {
+    color: #097ea8;
+    font-size: medium;
+    margin-bottom: 20px;
+}
+
+  /* header image styles */
 header img {
     border-radius: 50%;
     width: 150px;
@@ -67,7 +82,13 @@ header img {
     object-fit: cover;
 }
 
-  /* Section styles */
+/* background wave image styles */
+.background img{
+    max-height: 200px;
+    min-width: 100%;
+}
+
+  /* about section styles */
 section {
     padding: 25px;
 }
@@ -78,7 +99,7 @@ section h2 {
     color: #4ee1a0;
 }
 
-
+/*work section styles */
 #work h2 {
     color: #ff5fa7;
 }
@@ -86,6 +107,7 @@ section p {
     margin-bottom: 30px;
 }
 
+/* applications 2-5 box styles */
 .other_applications {
     display: flex;
     justify-content: space-between;
@@ -103,18 +125,21 @@ section p {
 
 }
 
+/* applications 2-5 image styles */
 .other_applications img {
     width: 100%;
     height: auto;
     transition: transform 0.3s;
 }
 
+/* applications 2-5 image styles when hovering */
 .other_applications :hover{
     color: white;
     border: 1px solid white;
+    cursor: pointer;
 }
 
-
+/*application box style for first application */
 .application a{
     display: flex;
     padding: 25px; /* Add padding to the application links */
@@ -125,6 +150,7 @@ section p {
     max-height: 300px;
 }
 
+/* application image style for first application */
 .application img {
     width: 100%;
     height: 100%;
@@ -133,25 +159,32 @@ section p {
     justify-content: center;
 }
 
+/* application image style for first application when hovering */
 .application :hover{
     color: white;
     border: 1px solid white;
+    cursor: pointer;
 }
 
-  /* Contact section styles */
+  /* contact section styles */
 #contact {
 
     text-align: center;
     padding: 50px;
 }
 
-  /* Responsive styles */
+#contact h2 {
+    color: #b08bff;
+}
+
+  /* responsive styles */
 @media screen and (max-width: 768px) {
     header img {
     width: 120px;
     height: 120px;
     }
 
+    
     .application {
     flex-wrap: wrap;
     }
@@ -170,11 +203,4 @@ section p {
     section h2 {
     font-size: 20px;
     }
-}
-
-.background img{
-    max-height: 200px;
-    min-width: 120%;
-    
-
 }
