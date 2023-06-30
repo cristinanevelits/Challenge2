@@ -5,7 +5,7 @@
     box-sizing: border-box;
     background-color: #151515;
     color: white;
-    padding: 0.5rem;
+    padding: 0.1rem;
 }
 
   /* Body styles */
@@ -14,14 +14,25 @@ body {
     line-height: 1.5;
 }
 
+.flex{
+    display: flex;
+    padding: 5px;
+    justify-content: space-between;
+}
+
   /* Navigation styles */
 nav {
     padding: 10px;
+    display: flex;
 }
 
 nav ul {
+    display: flex;
     list-style-type: none;
-    text-align: center;
+    text-align: right;
+    margin-top: 50px;
+    text-decoration: underline;
+    color: #4ee1a0;
 }
 
 nav ul li {
@@ -40,7 +51,7 @@ nav ul li a:hover {
   /* Header styles */
 header {
     text-align: left;
-    padding: 50px 0;
+    padding: 50px;
 }
 
 header h1 {
@@ -58,42 +69,80 @@ header img {
 
   /* Section styles */
 section {
-    padding: 50px 0;
+    padding: 25px;
 }
 
 section h2 {
     font-size: 24px;
     margin-bottom: 20px;
+    color: #4ee1a0;
 }
 
+
+#work h2 {
+    color: #ff5fa7;
+}
 section p {
     margin-bottom: 30px;
 }
 
-.applications {
+.other_applications {
     display: flex;
     justify-content: space-between;
+    color: rgba(255, 255, 255, 0.265);
 }
 
-.applications a {
+.other_applications a {
     flex-basis: calc(33.33% - 20px);
+    padding: 20px; /* Add padding to the application links */
+    border: 1px solid rgba(255, 255, 255, 0.265); /* Add border */
+    border-radius: 5px; /* Add border radius */
+     overflow: hidden; /* Hide overflow */
+    margin: 5px;
+    max-height: 300px;
+
 }
 
-.applications img {
+.other_applications img {
     width: 100%;
     height: auto;
     transition: transform 0.3s;
 }
 
-.applications img.featured {
-    transform: scale(1.1);
+.other_applications :hover{
+    color: white;
+    border: 1px solid white;
+}
+
+
+.application a{
+    display: flex;
+    padding: 25px; /* Add padding to the application links */
+    border: 1px solid rgba(255, 255, 255, 0.265); /* Add border */
+    border-radius: 5px; /* Add border radius */
+     overflow: hidden; /* Hide overflow */
+    margin: 5px;
+    max-height: 300px;
+}
+
+.application img {
+    width: 100%;
+    height: 100%;
+    transition: transform 0.3s;
+    align-content: center;
+    justify-content: center;
+}
+
+.application :hover{
+    color: white;
+    border: 1px solid white;
 }
 
   /* Contact section styles */
 #contact {
 
     text-align: center;
-    padding: 50px 0;
+    padding: 50px;
 }
 
   /* Responsive styles */
@@ -103,11 +152,11 @@ section p {
     height: 120px;
     }
 
-    .applications {
+    .application {
     flex-wrap: wrap;
     }
 
-    .applications a {
+    .application a {
     flex-basis: calc(50% - 20px);
     margin-bottom: 20px;
     }
@@ -121,4 +170,11 @@ section p {
     section h2 {
     font-size: 20px;
     }
+}
+
+.background img{
+    max-height: 200px;
+    width: 100%;
+    
+
 }
