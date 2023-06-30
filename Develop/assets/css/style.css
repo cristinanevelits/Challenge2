@@ -19,6 +19,7 @@ body {
     padding: 5px;
     justify-content: space-between;
     margin: 0;
+    viewport-fit: cover;
 }
 
 /* navigation styles */
@@ -33,8 +34,8 @@ nav ul {
     list-style-type: none;
     text-align: right;
     margin-top: 50px;
-    text-decoration: underline;
-    color: #4ee1a0;
+    text-decoration: underline #4ee1a0;
+    
 }
 /* navigation bar elements style - each one*/
 nav ul li {
@@ -91,6 +92,7 @@ header img {
   /* about section styles */
 section {
     padding: 25px;
+    justify-content: center;
 }
 
 section h2 {
@@ -105,6 +107,7 @@ section h2 {
 }
 section p {
     margin-bottom: 30px;
+    justify-content: center;
 }
 
 /* applications 2-5 box styles */
