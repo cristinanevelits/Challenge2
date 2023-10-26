@@ -30,6 +30,7 @@ Font: Google Fonts
 
 ## GitHub Repo Link: https://github.com/cristinanevelits/Challenge2
 
+
 ## Credits
 
 Created by Cristina Nevelits. Conducted searches in Google.com, https://www.w3schools.com/ and utilized ChatGPT, https://chat.openai.com/ and YouTube Channels - https://www.youtube.com to understand concepts.
