@@ -25,7 +25,8 @@ Font: Google Fonts
 ![Screenshot#2](https://github.com/cristinanevelits/Challenge2/blob/main/Develop/assets/images/Screenshot%202023-06-30%20at%204.43.11%20PM.png)
 ![Screenshot#3](https://github.com/cristinanevelits/Challenge2/blob/main/Develop/assets/images/Screenshot%202023-06-30%20at%204.43.37%20PM.png)
 
-## Deployed website link: https://cristinanevelits.github.io/Challenge2/Develop/
+## Deployed website link: https://cristinanevelits.github.io/Challenge2/Develop
+
 
 ## GitHub Repo Link: https://github.com/cristinanevelits/Challenge2
 
